@@ -7,22 +7,22 @@ Professional ASP.NET Core Web API built with Clean Architecture, featuring JWT a
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                         API Layer                           │
-│  (Controllers, DTOs, Program.cs, Middleware Registration)    │
+│  (Controllers, DTOs, Program.cs, Middleware Registration)   │
 └──────────────────────┬──────────────────────────────────────┘
                        │
 ┌──────────────────────▼──────────────────────────────────────┐
 │                    Infrastructure Layer                     │
-│  (Repository Implementation, EF Core, JWT, Services)       │
+│  (Repository Implementation, EF Core, JWT, Services)        │
 └──────────────────────┬──────────────────────────────────────┘
                        │
 ┌──────────────────────▼──────────────────────────────────────┐
-│                     Application Layer                     │
-│  (Service Interfaces, DTOs, Validation, Business Logic)  │
+│                     Application Layer                       │
+│  (Service Interfaces, DTOs, Validation, Business Logic)     │
 └──────────────────────┬──────────────────────────────────────┘
                        │
 ┌──────────────────────▼──────────────────────────────────────┐
-│                       Domain Layer                        │
-│          (Entities, Repository Interfaces)               │
+│                       Domain Layer                          │
+│          (Entities, Repository Interfaces)                  │
 └─────────────────────────────────────────────────────────────┘
 ```
 
